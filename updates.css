@@ -1,0 +1,101 @@
+body{
+    background-color: limegreen;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+}
+div{
+    background-color: pink;
+    border-radius: 20px;
+    max-width: 500px;
+    padding: 0%;
+    margin: auto;
+    height: auto;
+}
+div h1{
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.info{
+    max-width: 100%;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 50px;
+    border-radius: 5px;
+}
+.info p.infos{
+    font-size: x-large;
+}
+.info.infos{
+    font-size: 15px;
+    line-height: 2px;
+}
+footer{
+    background-color: rgb(41, 39, 65);
+    height: auto;
+    width: auto;
+    padding: 0%;
+    margin: auto;
+    border-radius: 5px;
+}
+footer p{
+    color: aliceblue;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: xx-large;
+}
+footer p.footer1p1{
+    font-size: 75px;
+    background-image: url(../B&S/read.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer p.qkl{
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-style: normal;
+}
+footer p span.q{
+    color: rgb(52, 229, 132);
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+}
+footer p a{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    padding-left: 2px;
+    font-size: small;
+}
+footer p a:hover{
+    color: rgb(52, 229, 132);;
+}
+footer main{
+    display: flex;
+}
+footer main img{
+    padding: 80px;
+    padding-right: 25px;
+    align-items: center;
+}
+
+footer p.contact{
+    font-size: xx-large;
+    text-decoration: underline;
+
+    color: aquamarine;
+}
+section p a{
+    color: rgb(200, 206, 239);
+}
+footer h4{
+    color: black;
+    text-align: center;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,40 @@
+
+.subscription-form{
+     background-color: antiquewhite;
+       
+     margin: 0 auto;
+ }
+ .subscription-form h2{
+     font-size: 50px;
+     text-align: center;
+     text-transform: capitalize;
+ }
+ .subscription-form form{
+     display: flex;
+     flex-direction: column;
+     border-radius: 100px;
+ }
+ .subscription-form label{
+     font-size: 20px;
+    
+ }
+ .subscription-form input,
+ .subscription-form select{
+     padding: 15px;
+     font-size: 15px;
+     border-radius: 6px;
+     border: none;
+     
+ }
+ .subscription-form button{
+     background-color: #4caf50;
+     color: beige;
+     padding: 10px;
+     font-size: 16px;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+ .subscription-form button:hover{
+     background-color: #3e8e41;
+ }

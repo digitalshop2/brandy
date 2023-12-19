@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>subscribe</title>
+</head>
+<body>
+    <div class="subscription-form">
+        <h2>subscribe to our monthly services</h2>
+        <form action="subscribe" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="payment">payment method:</label>
+            <select name="payment" id="payment">
+                <option value="paypal">paypal</option>
+                <option value="credit-card">credit-card</option>
+            </select>
+                <button type="submit">subscribe</button>
+        </form>
+    </div>
+</body>
+</html>

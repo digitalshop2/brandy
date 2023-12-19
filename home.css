@@ -1,0 +1,221 @@
+body{
+    background-color: pink;
+}
+header{
+    align-items: center;
+    background-color: rgb(100, 132, 132);
+    padding-top: 0px;
+    width: auto;
+    height: 50vh;
+    padding: 5px;
+    background-image: url(../B&S/background.png);
+}
+.header h1{
+    background-image: url(../B&S/purple-neon-frame-smoke-effect_53876-98142.jpg);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    justify-content: space-between;
+    padding: 2px;
+    text-align: center;
+    text-transform: capitalize;
+    color: pink
+}
+.header h2{
+    color: black;
+    text-transform: capitalize;
+    background-color: transparent;
+    border-style: double;
+    border-radius: 10px; 
+}
+.header{
+    background-image: url(../B&S/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: 0%;
+    border-radius: 10px;
+}
+.header h1 span{
+    color: rgb(234, 24, 206);
+    font-size: 70px;
+}
+div{
+    padding: auto;
+    margin: auto;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+.announce{
+    text-decoration: none;
+    padding: auto;
+    color: rgba(255, 192, 203, 0.63);
+    padding: auto;
+    padding-top: 20px;
+    height: 15vh;
+    background-color: rgba(214, 24, 56, 0)
+
+
+}
+.announce h3{
+    background-image: url(../B&S/abstract-space-wallpaper-background-dark-smoke-design_53876-128278.jpg);
+    text-decoration: none;
+    padding-bottom: auto;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.announce h3 a:hover{
+    color: aliceblue;
+}
+.announce h3 span{
+    color: rgb(77, 188, 67);
+    font-size: large;
+}
+.image-container{ 
+    display: flex;
+    justify-content: center;
+}
+.image-container p{
+    text-transform: capitalize;
+    color: rgb(166, 11, 232);
+    font-size: larger;
+    background-image: url(../B&S/abstract-space-wallpaper-background-dark-smoke-design_53876-128278.jpg);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.image-container p span.q2{
+    color: rgb(225, 71, 194);
+    text-align: center;
+}
+.image-container p span.q1{
+    color: rgb(36, 30, 30);
+    text-align: right;
+    justify-content: right;
+}
+.image-container span.q1{
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+    padding-left: 300px;
+    
+}
+.quotes{
+    align-items: center;
+    background-color: rgb(229, 213, 216);
+    max-height: auto;
+    border-radius: 10px;
+}
+
+.quotes h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(247, 166, 180);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+h3 span.lq1{
+    color: black;
+    font-size: small;
+    justify-content: space-between;
+
+}
+.quotes h4{
+    text-align: right;
+    color: aliceblue;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    font-size: large;
+    text-transform: capitalize;
+}
+.quotes h4 a{
+    color: rgb(24, 86, 140);
+    text-decoration: none;
+}
+.quotes h4 a:hover{
+    color: rgb(246, 162, 176);
+}
+footer{
+    background-color: rgb(41, 39, 65);
+    height: auto;
+    width: auto;
+    padding: 0%;
+    margin: auto;
+    border-radius: 5px;
+}
+footer p{
+    color: aliceblue;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: xx-large;
+}
+footer p.footer1p1{
+    font-size: 75px;
+    background-image: url(../B&S/read.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+footer p.qkl{
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-style: normal;
+}
+footer p span.q{
+    color: rgb(52, 229, 132);
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+}
+footer p a{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    padding-left: 2px;
+    font-size: small;
+}
+footer p a:hover{
+    color: rgb(52, 229, 132);;
+}
+footer main{
+    display: flex;
+}
+footer main img{
+    padding: 80px;
+    padding-right: 25px;
+    align-items: center;
+}
+
+footer p.contact{
+    font-size: xx-large;
+    text-decoration: underline;
+
+    color: aquamarine;
+}
+section p a{
+    color: rgb(200, 206, 239);
+}
+footer h4{
+    color: black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+footer p.call{
+    padding-top: 0%;
+}
